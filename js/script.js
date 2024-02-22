@@ -1,9 +1,17 @@
-// const dp-container = document.getElementById('dp-container');
-// for(let i = 1; i <= 100; i++){
-
-// }
 
 
 for(let i = 1; i <= 100; i++){
-  console.log(i);
-}
+
+  //  if(i % 3 === 0){ 
+      
+      console.log(i);
+    // }
+  }
+  
+  
+
+
+
+
+  // const li = document.createElement('li');
+  // li.innerHTML = `Elemento: ${i}`
