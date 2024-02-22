@@ -1,25 +1,26 @@
-const dpcontainer = document.getElementById('dp-container');
 
-// const box = 100;
+const container = document.getElementById('dp-container');
+const numBox = 100;
 
-for(let i = 1; i <= box; i++){
+for(let i = 1; i <= numBox; i++){
 
-  const box = document.createElement('div');
-  box.innerHTML = `${i}`
-  box.classList.add('box');
-  dpcontainer.append('box');
+  const div = document.createElement('div');
+  div.innerHTML = `${i}`;
+  div.classList.add('square');
+  container.append(div);
 
+  
   if (i % 3 === 0 && i % 5 === 0) {
-    box.innerHTML = 'FizzBuzz';
+    div.innerHTML = 'FizzBuzz';
     // console.log('FizzBuzz');
   }else if(i % 3 === 0){ 
-    box.innerHTML = 'Fizz';
+    div.innerHTML = 'Fizz';
     // console.log('Fizz');
   } else if (i % 5 === 0){
-    box.innerHTML = 'Buzz';
+    div.innerHTML = 'Buzz';
     // console.log('Buzz');
   } else {
-    box.innerHTML = `${i}`
+    div.innerHTML = `${i}`
     // console.log(i);
   }
 }

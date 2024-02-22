@@ -2,9 +2,13 @@ body{
   background-color: #083b4c;
 }
 
-.box{
+.square{
   width: 60px;
   height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 5px;
   border: 1px solid black;
   color: white;
 }
