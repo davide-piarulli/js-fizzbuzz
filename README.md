@@ -20,4 +20,7 @@ Crea un container nel DOM , aggiungendo (attraverso la funzione `append()` oppur
 Applica stili differenti agli elementi aggiunti al DOM nel *BONUS 1*, a seconda che il valore inserito sia un numero, un fizz, un buzz o un fizzbuzz.
 Se sei a corto di idee per lo stile, potresti prendere spunto dallo screenshot fornito in consegna.
 ## Step da eseguire
-1.
+1. crea ciclo for che stampa in console da 1 a 100.
+2. dentro il ciclo, crea un IF che sostituisce il numero con una scritta in base alla consegna data
+3. dentro il ciclo, crea l'elemento che si ripeterà, inserisci dentro la variabile i, aggiungigli la classe square e rendilo figlio (append) del container.
+4. dentro IF aggiungi le classi create al div per assegnare un colore di sfondo.
